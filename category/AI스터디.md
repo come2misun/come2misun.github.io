@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Markup
+title: AI스터디
 ---
 
-Another sample category page.
+AI스터디
