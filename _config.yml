@@ -1,35 +1,37 @@
-title: 안녕하세요~. 미선입니다.
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Author Settings
-author: 미선 # add your name
-author-img: #david-freeman.jpg # add your photo
-about-author: 개발자 
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-github: come2misun # add your Github handle
-linkedin: # add your Linkedin handle
-email: come2misun@gmail.com # add your Email address
+# Setup
+title:            미선
+tagline:          'come2misun'
+description:      '미선 블로그'
+url:              https://come2misun.github.io
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+author:
+  name:           'come2misun'
+  url:            
 
-# Tracker
-analytics: # Google Analytics
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-# Build Settings
-markdown: kramdown
 plugins:
-  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Custom vars
+version:            3.4.1
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:             https://github.com/come2misun
