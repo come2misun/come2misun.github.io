@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            미선
 tagline:          'come2misun'
-description:      '미선 블로그'
+description:      '미선 기술 블로그'
 url:              https://come2misun.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
