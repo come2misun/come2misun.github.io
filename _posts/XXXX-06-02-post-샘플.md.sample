@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Post: Video (YouTube)"
+excerpt_separator: "<!--more-->"
 categories:
   - aciform
   - antiquarianism

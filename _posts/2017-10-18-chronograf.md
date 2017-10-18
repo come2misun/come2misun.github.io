@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Apache Math3 Lib"
+title: "chronograf"
 excerpt_separator: "<!--more-->"
 categories:
   - 개발팁
 tags:
-  - java
-  - Spring
-  - lib
+  - 개발툴 
+  - Influx  
 last_modified_at: 2017-03-23T15:33:37-04:00
 ---
 
@@ -27,9 +26,10 @@ last_modified_at: 2017-03-23T15:33:37-04:00
 * Performing statistical significance tests
 * Miscellaneous mathematical functions such as factorials, binomial coefficients and "special functions" (e.g. gamma, beta functions)
 
-
 <!--more-->
 
-### Statistics
+### 데이터 입력 
+
+
 
 
