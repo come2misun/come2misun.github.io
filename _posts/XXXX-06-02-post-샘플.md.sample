@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Post: Video (YouTube)"
+categories:
+  - aciform
+  - antiquarianism
+  - arrangement
+  - asmodeus
+  - broder
+  - buying
+  - championship
+  - chastening
+  - disinclination
+  - disinfection
+tags:
+  - categories
+  - edge case
+last_modified_at: 2017-03-23T15:33:37-04:00
+---
+
+
+### 유튜브 삽입 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
+</div>
+ 
+
+```html
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="..."></iframe>
+</div>
+```
+
+
+### 인용 quote 
+> Only one thing is impossible for God: To find any sense in any copyright law on the planet.
+>
+> <cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite>
+
+
+
+### 수정일자 
+This post has been updated and should show a modified date if `last_modified_at` is used in the layout.
+
+Plugins like [**jekyll-sitemap**](https://github.com/jekyll/jekyll-feed) use this field to add a `<lastmod>` tag your `sitemap.xml`.
