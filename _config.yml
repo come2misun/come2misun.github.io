@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            미선
+title:            come2misun
 tagline:          'come2misun'
 description:      '미선 기술 블로그'
 url:              https://come2misun.github.io
