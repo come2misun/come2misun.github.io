@@ -3,9 +3,8 @@ layout: post
 title: "chronograf"
 excerpt_separator: "<!--more-->"
 categories:
-  - 개발팁
+  - Tools
 tags:
-  - 개발툴 
   - Influx  
 last_modified_at: 2017-03-23T15:33:37-04:00
 ---
