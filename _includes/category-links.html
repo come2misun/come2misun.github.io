@@ -2,6 +2,7 @@
   Dynamically generate list of links to all category pages
 {% endcomment %}
 <h4>categories</h4>
+<div style"padding-left:5px;">
 {% assign pages_list = site.pages %}
 {% for node in pages_list %}
   {% if node.title != null %}
@@ -11,3 +12,4 @@
     {% endif %}
   {% endif %}
 {% endfor %}
+</div>
