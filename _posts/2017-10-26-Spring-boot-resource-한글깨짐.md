@@ -6,12 +6,19 @@ categories:
   - 개발팁
 tags:
   - Spring Boot
-last_modified_at: 2017-03-23T15:33:37-04:00
+last_modified_at: 2017-10-26T15:33:37-04:00
 ---
+
+zuul.routes 설정을 통해 서비스를 구성한 프로젝트
+```
+server.port=8080
+zuul.routes.cust.url=http://localhost:9109/cust
+```
+
 
 다른 웹어플리케이션에서 가져온 html의 한글이 깨지는 현상이 발견돼었다.
 ```
-<ng-include src="'/public/app/html/rms/drctMng/module/DRCT.RECIPES.html'"></ng-include>
+<ng-include src="'http://localhost:8080/cust/~~~/module/KOREAN.html'"></ng-include>
 ```
 
 <!--more-->
