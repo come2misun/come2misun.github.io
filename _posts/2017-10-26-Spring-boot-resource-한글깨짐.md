@@ -23,6 +23,9 @@ zuul.routes.cust.url=http://localhost:9109/cust
 
 <!--more-->
 ```java
+
+import org.springframework.web.filter.CharacterEncodingFilter;
+
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
