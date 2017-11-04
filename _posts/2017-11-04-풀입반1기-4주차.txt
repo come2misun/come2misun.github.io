@@ -1,0 +1,40 @@
+---
+layout: post
+title: 모두연 풀잎반 1기 4주차
+categories:
+  - 모두연 풀잎반
+tags:
+  - cs231n
+  - 풀잎반 
+excerpt_separator:  <!--more-->
+---
+ 
+[목표] 
+### 이론 강의 : Lecture 4
+Introduction to Neural Networks 
+* Backpropagation
+* Multi-layer Perceptrons
+* The neural viewpoint
+### 이론 강의 : Lecture 5
+Convolutional Neural Networks 
+* History 
+* Convolution and pooling 
+* ConvNets outside vision
+
+<!--more-->
+
+### 실습 숙제
+* Assignment 1 : [Assignment #1]
+
+ 
+<!--more-->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/h7iBpEHGVNc?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
+</div>
+ 
+ 
+ 
+## Introduction to Neural Networks 
+* Backpropagation
+* Multi-layer Perceptrons
+* The neural viewpoint 
