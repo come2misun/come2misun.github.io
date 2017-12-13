@@ -35,6 +35,31 @@ Convolutional Neural Networks
  
  
 ## Introduction to Neural Networks 
-* Backpropagation
+
 * Multi-layer Perceptrons
 * The neural viewpoint 
+
+
+우리의 목표는..
+weight 를 찾는거...
+
+Analytic gradient
+
+Computational graphs 노드
+* score계산
+* hinge loss
+* 정규화
+
+### Backpropagation
+주어진 값으로 그래프 노드 계산
+역순으로 각 노드의 미분값 계산
+
+Chain rule 적용 
+gradient = local gradient * upcomming gradient
+
+local input
+local gradient
+output
+
+
+
